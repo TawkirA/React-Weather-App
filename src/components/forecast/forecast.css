@@ -1,0 +1,37 @@
+.title {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* .forecast-container {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.forecast-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 10px -20px 20px 2px rgb(0, 0, 0 / 30%);
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.forecast-desc {
+    font-variant: small-caps;
+    font-size: 16px;
+}
+
+.icon-small {
+    width: 50px;
+}
+
+.min-temp {
+    color: skyblue;
+}
+
+.max-temp {
+    color: coral;
+}
